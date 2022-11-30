@@ -1,0 +1,36 @@
+{
+  "name": "templateforv2-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo This",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "type": "module",
+  "dependencies": {
+    "@rspack/cli": "0.1.9",
+    "@rspack/core": "0.1.9",
+    "@rspack/dev-server": "0.1.9",
+    "@types/react": "^18.0.28",
+    "css-loader": "^6.7.3",
+    "react": "^17.0.0",
+    "react-dnd": "^16.0.1",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "swiper": "^6.0.0",
+    "webpack": "^5.76.2"
+  }
+}
